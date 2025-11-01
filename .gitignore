@@ -1,0 +1,72 @@
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+.pnpm/
+.pnp.js
+
+# Build / output
+build/
+dist/
+out/
+coverage/
+.cache/
+.parcel-cache/
+.esbuild/
+*.tgz
+
+# React / Next / CRA
+.env
+.env.local
+.env.*.local
+.env.* 
+.next/
+public/.cache
+
+# Server (Express) artifacts
+uploads/
+tmp/
+temp/
+logs/
+*.log
+
+# Database / runtime data
+/data/db/
+dump/
+*.sqlite3
+*.db
+
+# Secrets / certificates
+*.pem
+*.key
+secrets.yml
+credentials.json
+
+# Containers
+docker-compose.override.yml
+docker-compose.*.yml
+Dockerfile.*.local
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*~
+
+# Misc
+coverage.xml
+report.xml
+/.history/
+npm-packages-offline-cache/
+yarn-offline-mirror/
